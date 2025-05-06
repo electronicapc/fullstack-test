@@ -28,7 +28,7 @@ jobs:
       - name: Run prettier
         run: |
           cd codebase/rdicidr-0.1.0
-          npm run prettier --write
+          npm run prettier -- --write
       - name: Testing
         run: |
           cd codebase/rdicidr-0.1.0
